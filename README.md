@@ -1,22 +1,27 @@
 # elastic2python
 
 elastic2python это набор функций, которые позволяют удобно извлечь данные из elastic или opensearch с помощью python и представить их в виде list of dicts или сохранить в csv.
+
 elastic2python is a set of functions that allow you to conveniently extract data from elastic or opensearch using python and present it as a list of dicts or save it in csv.
 ***
 Для чего это нужно:
 * позволяет работать с данными в pandas
 * позволяет выгружать данные в csv
+
 What is it for?:
 * allows you to work with data in pandas
 * allows you to upload data to csv
 ***
 Пример использования представлен в файле elastic2python.ipynb
+
 An example of usage is provided in the elastic 2 python.ipynb file
 ***
 Для работы необходимы модули elasticsearch и opensearch-py соответственно.
+
 The elasticsearch and opensearch-py modules are required for operation, respectively.
 ***
 Основные функции, предлагаемые для использования:
+
 The main functions offered for use:
 
 ### data_taxi -- получаем данные как в Discovery/we get the data as in Discovery
